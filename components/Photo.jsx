@@ -3,22 +3,22 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 
-const Photo = () => {
+const Photo = ({containerStyles, imageStyles, circleStyles}) => {
   return (
-    <div className="w-full h-full relative">
+    <div className={`${containerStyles}`}>
             {/* Image */}
             <motion.div
             initial={{ opacity: 0}}
             animate={{opacity: 1}}
             transition={{ duration: 0.5, delay: 0.8}}
             // 这里的top以及left与crile不一致是因为图片本身的布局中 进行了微调  
-            className="w-[348px] h-[348px] absolute top-2 ">
+            className={`${imageStyles}`}>
               <Image src={"/photo.png"} priority quality={100} fill
                 alt="" className="object-contain" />
             </motion.div>
             {/* Crile */}
             <motion.svg
-            className="W-[350px] h-[350px] "
+            className={`${circleStyles}`}
             fill="transparent"
             viewBox="0 0 506 506"
             xmlns="http://www.w3.org/2000/svg">
