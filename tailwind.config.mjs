@@ -8,6 +8,16 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+	container: {
+		center: true,
+		padding: '2rem',
+	},
+	screens: {
+		sm: '640px',
+		md: '768px',
+		lg: '1024px',
+		xl: '1280px',
+	},
   	extend: {
 		fontSize: {
 			primaryTitle: 'max(48px, min(5vw, 76px))',
@@ -59,7 +69,13 @@ export default {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		backgroundImage: {
+			hero_background_light: "url(/hero/hero-bg-light.png)",
+			hero_background_dark: "url(/hero/hero-bg-dark.png)",
+			about_shape_light: 'url(/about/shape-dark.svg)',
+			about_shape_dark: 'url(/about/shape-light.svg)'
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],

@@ -1,5 +1,5 @@
 'use client'
-// 组件
+// Components
 import Link from "next/link";
 import ThemeToggler from "@/components/ThemeToggler";
 import Nav from "@/components/Nav";
@@ -21,7 +21,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`sticky top-0 z-30 transition-all
+    <header className={`sticky top-0 z-30 transition-all bg-background
      ${header ? 'py-4 border-b' : 'py-4'}`}>
       <div className="px-6">
         <div className="flex justify-between items-center">

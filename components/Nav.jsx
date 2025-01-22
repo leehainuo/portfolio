@@ -1,11 +1,11 @@
 'use client'
-// 组件
+// Components
 import Link from "next/link";
 
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 
-// 数据
+// Data
 const links = [
   { path: "/", name: "home" },
   { path: "/projects", name: "my projects" },

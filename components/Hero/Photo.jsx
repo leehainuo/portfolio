@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 
-const Photo = ({containerStyles, imageStyles, circleStyles}) => {
+const Photo = ({containerStyles, imageStyles, circleStyles, url}) => {
   return (
     <div className={`${containerStyles}`}>
             {/* Image */}
@@ -13,7 +13,7 @@ const Photo = ({containerStyles, imageStyles, circleStyles}) => {
             transition={{ duration: 0.5, delay: 0.8}}
             // 这里的top以及left与crile不一致是因为图片本身的布局中 进行了微调  
             className={`${imageStyles}`}>
-              <Image src={"/photo.png"} priority quality={100} fill
+              <Image src={`${url}`} priority quality={100} fill
                 alt="" className="object-contain" />
             </motion.div>
             {/* Crile */}

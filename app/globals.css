@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
   :root {
     --background: 0 0% 98%;
@@ -60,7 +59,6 @@
   }
 }
 
-
 @layer base {
   * {
     @apply border-border;
@@ -70,7 +68,12 @@
   }
 }
 
-.PrimaryTitle {
+.primary-title {
   @apply text-primaryTitle font-extrabold -tracking-wider bg-clip-text text-transparent bg-gradient-to-r
-         from-[#555] to-[#000] leading-none dark:from-[#fff] dark:to-[#555]
+       from-[#555] to-[#000] leading-none dark:from-[#fff] dark:to-[#555];
+}
+
+.section-title {
+  @apply text-[32px] font-bold -tracking-wider bg-clip-text text-transparent bg-gradient-to-r
+       from-[#555] to-[#000] leading-none dark:from-[#fff] dark:to-[#555];
 }
