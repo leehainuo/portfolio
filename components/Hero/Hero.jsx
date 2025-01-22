@@ -30,7 +30,7 @@ const Hero = () => {
                             <Button className="text-base mb-8">
                                 Contact me
                             </Button>
-                        </Link> 
+                        </Link>
                     </div>
                     {/* Socials */}
                     <Socials
