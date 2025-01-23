@@ -77,3 +77,11 @@
   @apply text-[32px] font-bold -tracking-wider bg-clip-text text-transparent bg-gradient-to-r
        from-[#555] to-[#000] leading-none dark:from-[#fff] dark:to-[#555];
 }
+/* Swiper Customization */
+.swiper-pagination-bullet {
+  @apply bg-muted-foreground !important;
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-primary !important;
+}

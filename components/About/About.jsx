@@ -92,7 +92,7 @@ const About = () => {
                                         <h1 className="text-left text-primary text-3xl font-bold mb-4">
                                             Unmatched Service Quality
                                         </h1>
-                                        <p className="text-left text-[#666] dark:text-[#a1a1a1] text-muted-foreground text-lg 
+                                        <p className="text-left text-muted-foreground text-lg 
                                         max-w-[500px] mx-0 mb-4">
                                             I specialize in crafting intuitive websites with
                                             cutting-edge technology, delivering dynamic and engaging
