@@ -9,10 +9,9 @@ import {
   RiJavaFill,
   RiJavascriptFill,
 } from "react-icons/ri";
-import { SiSpring, SiFigma, SiIntellijidea } from "react-icons/si";
+import { SiSpring, SiFigma, SiIntellijidea, SiHono } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { useState, useEffect } from "react";
-
 
 const skillData = [
   {
@@ -50,6 +49,10 @@ const skillData = [
       {
         name: "Java",
         icon: <RiJavaFill size={55} />,
+      },
+      {
+        name: "Hono.js",
+        icon: <SiHono size={55} />,
       },
       {
         name: "JavaScript",

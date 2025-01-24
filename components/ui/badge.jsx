@@ -1,4 +1,3 @@
-// 徽章组件
 import * as React from "react"
 import { cva } from "class-variance-authority";
 

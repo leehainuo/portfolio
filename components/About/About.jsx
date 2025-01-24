@@ -59,7 +59,7 @@ const About = () => {
   }
 
   return (
-    <section className="xl:h-[860px] pb-12 xl:py-24">
+    <section className="pb-12 xl:py-24">
         <div className="container mx-auto">
           <h1 className="section-title text-center mb-8 xl:mb-16">About Me</h1>
           <div className="flex">
@@ -75,7 +75,7 @@ const About = () => {
             {/* Tabs */}
             <div className="flex-1 text-center ">
                 <Tabs defaultValue="personal">
-                    <TabsList className="">
+                    <TabsList>
                         <TabsTrigger className="xl:w-36" value="personal">Personal Info</TabsTrigger>
                         <TabsTrigger className="xl:w-36" value="qualifications">Qualifications</TabsTrigger>
                         <TabsTrigger className="xl:w-36" value="skills">Skills</TabsTrigger>
