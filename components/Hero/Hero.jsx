@@ -8,7 +8,7 @@ import { RiArrowDownSLine, RiMacbookFill, RiTodoFill, RiCodeSSlashFill } from "r
 
 const Hero = () => {
   return (
-    <section className="py-12 lg:py-24 h-[84vh] overflow-hidden
+    <section className="py-12 lg:py-24 h-[500px] lg:h-[700px] overflow-hidden
      bg-hero_background_light dark:bg-hero_background_dark bg-no-repeat bg-bottom">
         <div className="container mx-auto px-4 lg:px-10 ">
             <div className="flex flex-col lg:flex-row justify-center gap-x-44">
@@ -66,7 +66,7 @@ const Hero = () => {
                 </div>
             </div>
             {/* Icon */}
-            <div className="hidden md:flex absolute left-[calc(50%-1rem)] bottom-44 lg:bottom-12
+            <div className="hidden xl:flex absolute left-[calc(50%-1rem)] bottom-44
              animate-bounce">
                 <RiArrowDownSLine className="text-3xl text-primary" />
             </div>

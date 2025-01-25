@@ -71,6 +71,9 @@ export default {
   			sm: 'calc(var(--radius) - 4px)'
   		},
 		backgroundImage: {
+			about_light: 'url(/about/about-light.svg)',
+			about_dark: 'url(/about/about-dark.svg)',
+			next_light: 'url(/next.svg)',
 			illsutration_light: 'url(/contact/illustration-light.svg)',
 			illsutration_dark: 'url(/contact/illustration-dark.svg)'
 		}

@@ -6,10 +6,9 @@ import {
   RiVuejsFill,
   RiTailwindCssFill,
   RiHtml5Fill,
-  RiJavaFill,
   RiJavascriptFill,
 } from "react-icons/ri";
-import { SiSpring, SiFigma, SiIntellijidea, SiHono } from "react-icons/si";
+import { SiSpring, SiFigma, SiIntellijidea, SiHono, SiNuxtdotjs } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { useState, useEffect } from "react";
 
@@ -30,6 +29,10 @@ const skillData = [
         icon: <RiVuejsFill size={55} />,
       },
       {
+        name: "Nuxt.js",
+        icon: <SiNuxtdotjs size={55} />,
+      },
+      {
         name: "TailwindCSS",
         icon: <RiTailwindCssFill size={55} />,
       },
@@ -45,10 +48,6 @@ const skillData = [
       {
         name: "Spring",
         icon: <SiSpring size={55} />,
-      },
-      {
-        name: "Java",
-        icon: <RiJavaFill size={55} />,
       },
       {
         name: "Hono.js",
@@ -108,7 +107,7 @@ const Skills = ({type}) => {
         const { name, icon } = item;
         return (
           <motion.div
-            className="flex items-center border rounded-md gap-x-2 overflow-hidden"
+            className={`flex items-center border rounded-md gap-x-2 overflow-hidden`}
             initial={{ width: 80 }}
             whileHover={isXlScreen ? {
               width: 210,
@@ -141,3 +140,4 @@ const Skills = ({type}) => {
 };
 
 export default Skills;
+
