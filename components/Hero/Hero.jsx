@@ -19,7 +19,7 @@ const Hero = () => {
                     <h1 className="text-[#ccc] text-lg font-bold">
                         Hello, my name is <span className="text-primary">Lee Hainuo</span>
                     </h1>
-                    <p className="text-[#666] dark:text-[#a1a1a1] text-muted-foreground text-lg mb-8
+                    <p className="text-muted-foreground text-lg mb-8
                      max-w-[490px] mx-auto lg:mx-0">
                         Brief description with insights into myself, my vocational 
                         journey, and what I engage in professionally.

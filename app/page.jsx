@@ -14,7 +14,6 @@ export default function Home() {
       <Services />
       <Work />
       <Cta />
-      <Footer />
     </main>
   );
 }

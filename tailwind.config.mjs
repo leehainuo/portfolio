@@ -71,10 +71,8 @@ export default {
   			sm: 'calc(var(--radius) - 4px)'
   		},
 		backgroundImage: {
-			hero_background_light: "url(/hero/hero-bg-light.png)",
-			hero_background_dark: "url(/hero/hero-bg-dark.png)",
-			about_shape_light: 'url(/about/shape-dark.svg)',
-			about_shape_dark: 'url(/about/shape-light.svg)'
+			illsutration_light: 'url(/contact/illustration-light.svg)',
+			illsutration_dark: 'url(/contact/illustration-dark.svg)'
 		}
   	}
   },
